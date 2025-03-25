@@ -1,3 +1,22 @@
-# Default ignored files
+# Ignorar a pasta shelf, geralmente usada para armazenar dependências locais ou caches temporários
 /shelf/
+
+# Ignorar o arquivo de configurações do workspace da IDE, para evitar versionamento de configurações pessoais
 /workspace.xml
+
+# Ignorar arquivos de logs
+*.log
+
+# Ignorar arquivos de compilação
+*.class
+*.exe
+*.dll
+
+# Ignorar arquivos de configuração de IDEs (ex: IntelliJ, Eclipse)
+.idea/
+.vscode/
+
+# Ignorar arquivos temporários do sistema operacional (ex: arquivos de backup)
+*~
+Thumbs.db
+.DS_Store

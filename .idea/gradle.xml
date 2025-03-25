@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  
+  <!-- Configurações de migração do Gradle -->
   <component name="GradleMigrationSettings" migrationVersion="1" />
+  
   <component name="GradleSettings">
+    
+    <!-- Configurações do projeto Gradle externo -->
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        
+        <!-- Caminho do projeto externo (diretório do projeto atual) -->
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        
+        <!-- Caminho do Gradle Home, vazio indica que o Gradle será detectado automaticamente -->
         <option name="gradleHome" value="" />
+        
+        <!-- Módulos do Gradle configurados para o projeto -->
         <option name="modules">
           <set>
+            <!-- Referência ao diretório do projeto como módulo -->
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
+        
       </GradleProjectSettings>
     </option>
+    
   </component>
+  
 </project>

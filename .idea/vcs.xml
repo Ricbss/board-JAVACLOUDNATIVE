@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <!-- Configuração para controle de versão (VCS) com Git -->
   <component name="VcsDirectoryMappings">
+    <!-- Mapeamento do diretório do projeto para o VCS Git -->
+    <!-- 'directory' refere-se ao diretório raiz do projeto, que será versionado pelo Git -->
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    
+    <!-- Adicionando outras configurações para facilitar a navegação e controle de versão -->
+    <!-- Esta seção pode ser expandida conforme novas configurações sejam necessárias -->
   </component>
+  
+  <!-- Se necessário, você pode configurar a integração do Git com outros parâmetros abaixo -->
+  <!-- Exemplo de configuração de roots de Git -->
+  <component name="Git">
+    <!-- Definir configurações de autenticação ou preferências específicas do Git -->
+    <!-- Pode incluir preferências de fetch, merge, branches, etc. -->
+    <config>
+      <option name="fetch" value="true" />
+      <option name="merge" value="true" />
+      <!-- Outros parâmetros relacionados ao Git -->
+    </config>
+  </component>
+
+  <!-- Adicionar mais componentes ou otimizações conforme o projeto cresce -->
 </project>
